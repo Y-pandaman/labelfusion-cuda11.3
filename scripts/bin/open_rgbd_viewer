@@ -1,0 +1,3 @@
+#!/bin/bash
+
+directorPython -m director.imageviewapp --bot-config $LABELFUSION_SOURCE_DIR/config/bot_frames.cfg --channel OPENNI_FRAME --rgbd --pointcloud

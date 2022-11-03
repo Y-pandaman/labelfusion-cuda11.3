@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Auto run_no_trim and run_prep..."
+
+python $LABELFUSION_SOURCE_DIR/automation/scripts/autoNoTrimPrep.py
+
+echo "Done."

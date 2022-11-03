@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Auto find what to run_alignment_tool on..."
+
+python $LABELFUSION_SOURCE_DIR/automation/scripts/autoAlignmentTool.py
+
+echo "Done."

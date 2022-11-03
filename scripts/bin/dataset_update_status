@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+echo "Updating dataset status..."
+
+echo $1
+
+python $LABELFUSION_SOURCE_DIR/scripts/updateDatasetStatus.py $1
+
+echo "Done."

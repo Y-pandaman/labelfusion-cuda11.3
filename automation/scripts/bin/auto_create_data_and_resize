@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Auto run_create_data and run_resize..."
+
+python $LABELFUSION_SOURCE_DIR/automation/scripts/autoCreateDataAndResize.py
+
+echo "Done."

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Call this script from within /train directory
+
+echo "Computing label weights..."
+
+python $LABELFUSION_SOURCE_DIR/scripts/computeLabelWeights.py
+
+echo "Done."

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Auto start data collect..."
+
+python $LABELFUSION_SOURCE_DIR/automation/scripts/autoStartDataCollect.py
+
+echo "Done."
